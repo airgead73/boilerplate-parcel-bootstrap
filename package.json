@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-parcel",
+  "name": "boilerplate-parcel-bootstrap",
   "version": "1.0.0",
-  "description": "boilerplate for web apps using parcel",
+  "description": "boilerplate for web apps using parcel and bootstrap",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "targets": {
@@ -17,7 +17,8 @@
     "clear": "rm -rf public && rm -rf dev"
   },
   "keywords": [
-    "parcel"
+    "parcel",
+    "bootstrap"
   ],
   "author": "dan moneypenny",
   "license": "MIT",
