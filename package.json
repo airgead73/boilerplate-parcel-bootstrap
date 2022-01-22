@@ -11,7 +11,7 @@
   },
   "scripts": {
     "start": "concurrently \"npm run clear\" \"npm run server\" \"npm client\"",
-    "build": "parcel build",    
+    "build": "parcel build",
     "client": "rm -rf dev && parcel --open --port 3030 --dist-dir dev",
     "server": "json-server --watch db.json --port 5000",
     "clear": "rm -rf public && rm -rf dev"
@@ -23,6 +23,8 @@
   "author": "dan moneypenny",
   "license": "MIT",
   "devDependencies": {
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^5.1.3",
     "concurrently": "^7.0.0",
     "json-server": "^0.17.0",
     "parcel": "^2.2.1"

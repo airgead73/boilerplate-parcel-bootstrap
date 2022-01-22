@@ -1,5 +1,5 @@
-console.log('script is loaded');
-
+// Import bootstrap plugins
+import * as bootstrap from 'bootstrap';
 
 const fetchAuthors = async () => {
   const response = await fetch("/authors");
