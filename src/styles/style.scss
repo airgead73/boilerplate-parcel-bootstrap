@@ -1,5 +1,5 @@
 
-@import "../../node_modules/bootswatch/dist/flatly/variables";
+@import "../../node_modules/bootswatch/dist/sandstone/variables";
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../../node_modules/bootstrap/scss/functions";
 
@@ -49,4 +49,4 @@
 
 // 6. Add additional custom code here
 
-@import "../../node_modules/bootswatch/dist/flatly/bootswatch";
+@import "../../node_modules/bootswatch/dist/sandstone/bootswatch";
